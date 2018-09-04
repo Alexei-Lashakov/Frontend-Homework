@@ -1,0 +1,52 @@
+* {
+	margin:0;padding:0;
+}
+
+body {
+	background-color: #3E90F5;
+}
+
+.button {
+	width: 130px;
+	height: 50px;
+	background-color: #989393;
+	border-radius: 5px;
+	margin: 40px 100px 40px -65px;
+	text-align: center;
+	position: relative;
+	left: 40%;
+	display: inline-block;
+}
+
+.button > a {
+	color: #000;
+	display: block;
+	padding: 15px;
+}
+
+.button:hover {
+	background-color: #53F196;
+}
+
+a {
+	text-decoration: none;
+	color: #4F4E4E;
+	font-family: sans-serif;
+}
+
+.parentBox {
+	color: #000;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content: stretch;
+	height: 800px;
+}
+
+.childItem {
+	margin: 10px;
+	padding: 15px;
+	background-color: #08F029; 
+	border: 2px dashed #000;
+	border-radius: 20px;
+}
